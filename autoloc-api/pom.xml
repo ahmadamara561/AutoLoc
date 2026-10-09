@@ -19,6 +19,8 @@
 
     <properties>
         <java.version>17</java.version>
+        <!-- Newer Lombok: the version bundled with Spring Boot 3.3.5 fails on JDK 25 -->
+        <lombok.version>1.18.46</lombok.version>
     </properties>
 
     <dependencies>
